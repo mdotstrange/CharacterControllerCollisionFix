@@ -30,5 +30,5 @@ but then I was getting the jumps/collision passthroughs.
 I've included the Unity test project which was made in 5.5- I tested with different types of moving objects.
 (Animated, Physics, Translate)
 
-The script alone is below as well. If you can improve upon it please do and send me a copy! ^_^
+The script alone is below as well. If you can improve upon it, please do and send me a copy! ^_^
 I'm @mdotstrange on twitter or mdotstrange@gmail.com  Thanks!
