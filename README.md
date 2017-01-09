@@ -19,6 +19,14 @@ Here is how the Character Controller behaves with the Collison Fixer script
 Its rough but it works- if you can improve it- please do! Just add the script to the Character Controller Game Object.
 ![alt tag](http://i.imgur.com/QeCEyAc.png)
 
+In the original ideas I based this on from https://mariusgames.com/3d-character-controller-db7cd3a7b4df#.l7bmb9rr8 he
+used multiple OverlapSphere's- I only used one in my script as I wasn't able to stop passthroughs when the sphere
+was any smaller than in my example project.
+
+To improve this it defintely needs to look smoother and be able to allow the character controller to get closer to
+the colliding object. I was able to get smoother motion by using a smaller overlapSphere size and pushback amount
+but then I was getting the jumps/collision passthroughs.
+
 I've included the Unity test project which was made in 5.5- I tested with different types of moving objects.
 (Animated, Physics, Translate)
 
